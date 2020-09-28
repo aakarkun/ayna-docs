@@ -49,6 +49,19 @@ For our system to run, there are some basic criteria that needs to be satisfied 
 ## 2. REQUIREMENT ANALYSIS AND FEASIBILITY ANALYSIS
 
 ### 2.1 Study of Existing System
+The overall goal of this project is to add a form of natural interaction to Smart Mirror and make it comparatively more affordable than the available products in the market. This goal can be realized by combining Smart Mirror with the science of Voice technology. Currently, all products in the smart mirror market are either too expensive or limited to general hobbyists. For example, Samsung has produced a smart mirror, simply called Samsung Smart Mirror, which utilizes Intel’s RealSense technology. This technology is bleeding edge and is not easily procurable or affordable for this implementation, at this time.  
+
+Currently available designs offer informational widgets; however, they lack the multiple informational screens, gesture support, and multiple user configurations. The following table shows various smart mirror implementations that were researched.  
+
+> *Table 1: Review of Existing Smart Mirror*  
+
+Alternatives to the Smart Mirror could be replicated using a smartphone or tablet but it will lack the screen size and the reflectiveness when the display is on to act as a functional mirror. The benefit of voice controlled smart mirror is that the user does not have to touch the screen hence eliminating smudges.  
+
+The Speech is the most common & primary mode of communication among human beings. It is the most natural and efficient form of exchanging information among humans. After thoroughly studying the other existing project on smart mirror, we learned about its flexibility and multitasking which can be used for better productivity over all. By adding the voice control with the internet many things were acquired on the project. Basic information was displayed on that mirror which was powered by raspberry pi and google speech API and could also take in few simple questions from the user and answer them. So through those studies we are trying to create an assistance personal bot which will help you to maintain your schedule and keeps you updated on the daily life through your calendar and different web services and social sites. We will be also trying to add the feature for our bot to answer to answer your basic queries.  
+
+Raspberry pi is a series of small single-board computer developed in United Kingdom by the Raspberry pi foundation to promote the teaching of basic computer science in school and in developing countries. Several generation of Raspberry Pi’s have been released. Many model are being released such as Raspberry pi 1 Model B, Model A, Model b+ and many more. Raspberry pi are used many IoT projects and devices.  
+
+Raspberry pi is being used for home automation system for a quite a while. It is used for central system which is used to control the home appliances. All the external device are connected to raspberry pi with wire or without wire.  
 
 ### 2.2 Data Collection Methods and Sources
 It is very important to collect data from lots of sources in order to make a project possible. Many researchers have documented their work on smart mirror in various journals. These papers were studied in order to gain knowledge on the techniques currently being used for these purposes as well as to gain a clear understanding of the performance complexity of the project. The different algorithms and techniques discussed in the papers were compared and studied in order to decide the best approach. The internet was searched for information regarding software applications, voice APIs and libraries which could help in implementing the voice command system required for voice analysis and processing. The website that we have visited for data collection are listed on Reference.
