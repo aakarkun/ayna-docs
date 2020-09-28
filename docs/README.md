@@ -29,7 +29,7 @@ The Smart Mirror is a system that combines these tasks in an efficient and enjoy
 ### 1.3 Objectives
 The objectives that this application intends to achieve are:
 - To create a smooth interaction using natural voice command to the mirror.
-- o make one stop for all the apps and your online inquiry we created ayna.
+- To make one stop for all the apps and your online inquiry we created ayna.
 
 ### 1.4 Scope and Limitations
 
