@@ -82,7 +82,9 @@ Data parser is one of the major requirement in our system since all our modules 
 Speech Recognition is the core part of our system since it is responsible for interaction with the mirror and manipulating the modules. For Speech Recognition we will be using an online API called annyang. It helps us to identify the instruction or command given by the user and turn them into action resulting the change in the current state of mirror.
 
 **Speech Recognition Process**  
-<small>*Figure 1: Speech Recognition Process*</small>
+
+![](_media/fig1.png)
+<div align="center"><small>Figure 1: Speech Recognition Process</small></div> 
 
 **Component of Speech Recognition System**  
 
@@ -150,16 +152,22 @@ Any project that can be implemented in real world remains beneficial. If it cann
 
 #### 2.6.1 Use Case Diagram
 A use case diagram is a simple written description of how users perform tasks and interact with a system. It shows the system from a user’s point of view and the system’s behavior as it responds to a request [4]. It is basically a type of textual requirements specification that captures how a user will interact with a system to achieve a specific goal. The use case diagram usually contains an actor, basic flow, post conditions and processes [5]. The Use Case diagram of the system is shown in figure 2.  
-*Figure 2: Use Case Diagram*  
+
+![](_media/fig2.png)
+<div align="center"><small>Figure 2: Use Case Diagram</small></div>   
 
 #### 2.6.2 Activity Diagram
 An activity diagram visually presents a series of actions or flow of control in a system similar to a flowchart or a data flow diagram. Activity diagrams are often used in business process modeling [6]. The activity diagram of the system is shown in figure 3.  
-*Figure 3: Activity Diagram*  
+
+![](_media/fig3.png)
+<div align="center"><small>Figure 3: Activity Diagram</small></div>   
 
 ## 3. SYSTEM DESIGN  
 
 ### 3.1 System Architecture  
-> *Figure 4: System Architecture*  
+
+![](_media/fig4.png)
+<div align="center"><small>Figure 4: System Architecture</small></div>   
 
 #### 3.1.1 User Interface
 User interface manages the interaction with the user. It takes data from the internet for the modules and displays to the user. User Interface can be changed and modified according to user needs if the user is logged in the system. That’s why it has two views:  
@@ -222,13 +230,19 @@ These are the data provided by the API available on the internet for some of our
 **MongoDB** as our database which stores data in flexible, JSON-like documents, fields can vary from documents to document and data structure can be changed over time. It will store information about user like user name, email id, user id and password and information about modules like module id, position, surface area, visible, default modules, category.
 
 ### 3.2 Sequence Diagram
-> *Figure 5: Sequence Diagram of the System*
+
+![](_media/fig5.png)
+<div align="center"><small>Figure 5: Sequence Diagram of the System</small></div>   
 
 ### 3.3 ER Diagram 
-> *Figure 6:  ER Diagram of the System*
+
+![](_media/fig6.png)
+<div align="center"><small>Figure 6:  ER Diagram of the System</small></div>
 
 ### 3.4 Class Diagram
-> *Figure 7: Class Diagram of the System*
+
+![](_media/fig7.png)
+<div align="center"><small>Figure 7: Class Diagram of the System</small></div>
 
 ### 3.5 Modules
 
@@ -283,7 +297,8 @@ React is front end library developed by Facebook. React makes it painless 	to cr
 
 Introducing React’s Component-Based feature, it is used to build encapsulated components that manage their own state, then compose them to make complex UIs. We have developed different components for this system such as, home screen is one component we call it MainSurface in project and inside that component we have to load SurfaceArea component. There are five surface areas which we have defined and they all need to be render at first in MainSurface because Modules (Clock, Greetings, News Feed, Quotes, etc.) are going to be rendered in SurfaceArea according to data store in database for every modules. We have defined five surface area as shown in the figure below:  
 
-> *Figure 8: Illustrating Ayna Components*
+![](_media/fig8.png)
+<div align="center"><small>Figure 8: Illustrating Ayna Components</small></div>
 
 In above figure, there are five surface area but we have designed only one SurfaceArea component that dynamically rendered required modules in five surface areas according to user database or default ayna database. We let the user to define their modules as their requirement. For accurate position of modules, we have defined three positions (Left, Center and Right). User need to log in to set position and can give voice command as well from home screen or from dashboard section user can define the position for their modules.
 In Dashboard section after log in user can install the modules from ayna modules and also can remove by uninstalling it or if they don’t want to display in their home screen user can make their module offline from dashboard or simply from home screen they can give a voice command to make module offline.
@@ -365,7 +380,8 @@ The core of the Ayna consists of Raspberry-pi Model 3 B. Figure 9 shows the inte
 - Microphone
 - VGA to HDMI converter
 
-> *Figure 9: Electronic Component with Raspberry Pi*
+![](_media/fig9.png)
+<div align="center"><small>Figure 9: Electronic Component with Raspberry Pi</small></div>
 
 #### 5.1.2 Software Implementation
 The software that we developed and used in this work concerns the Electron based web application as well as the main server. As operating system we choose Raspbian which is based upon the Debian Wheezy Linux operating system and has been optimized for use with Raspberry Pi.
@@ -378,31 +394,45 @@ For the implementation of the Web application we have used Visual Studio Code. W
 The Web application has 7 main interfaces:  
 - **Ayna** ``(Figure 10)``  
 The Ayna is the main interface which contains a script to load default modules or user defined modules in their respective surface area.
-> *Figure 10: Ayna Interface*
+
+![](_media/fig10.png)
+<div align="center"><small>Figure 10: Ayna Interface</small></div>
 
 - **Login Form** ``(Figure 11)``  
 The Login interface is a simple JavaScript which in turn is connected to a Mongo DB database. Upon successful entry of a user, comes up the Dashboard interface ``(Figure 13)``.
-> *Figure 11: Login Interface*
+
+![](_media/fig11.png)
+<div align="center"><small>FFigure 11: Login Interface</small></div>
 
 - **Register Form** ``(Figure 12)``
 The Register interface is a simple form which lets user to register in ayna using their username, email and password they provide, it connects to Mongo DB database to store the user data after registration and then comes up the Login interface to login.  
-> *Figure 12: Register Interface*
+
+![](_media/fig12.png)
+<div align="center"><small>Figure 12: Register Interface</small></div>
 
 - **Dashboard Interface** ``(Figure 13)``  
 The Dashboard interface is for viewing the stats of ayna i.e., It shows number of default modules, user modules and total registered users. User most logged in to route here.  
-> *Figure 13: Dashboard Interface*
+
+![](_media/fig13.png)
+<div align="center"><small>Figure 13: Dashboard Interface</small></div>
 
 - **Modules Interface** ``(Figure 14)``  
 In Modules interface, user need to sign in first and can install their desired modules from default modules so that they can view their module in Ayna. User also can uninstall the user modules or they can set visible property of the user modules by visiting module profile interface ``(Figure 16)``.
-> *Figure 14: Modules Interface*
+
+![](_media/fig14.png)
+<div align="center"><small>Figure 14: Modules Interface</small></div>
 
 - **Profile Interface** ``(Figure 15)``  
 In Profile interface, user can view their profile details and can change the details if they required.
-> *Figure 15: Profile Interface*
+
+![](_media/fig15.png)
+<div align="center"><small>Figure 15: Profile Interface</small></div>
 
 - **Module Profile** ``(Figure 16)``  
 In Module Profile interface, there we can view module profile and user can install or uninstall module.
-> *Figure 16: Module Profile Interface*
+
+![](_media/fig16.png)
+<div align="center"><small>Figure 16: Module Profile Interface</small></div>
 
 ### 5.2 Maintenance
 
