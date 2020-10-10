@@ -1,2 +1,4 @@
 # ayna-docs
-[Documentation](https://aakarkun.github.io/ayna-docs/#/) for Ayna
+Documentation for Ayna
+
+[Preview](https://aakarkun.github.io/ayna-docs/#/)
