@@ -14,5 +14,5 @@
 
 [GitHub](https://github.com/aakarkun/ayna/)
 [API](https://giuthub.com/meemimos/ayna-api)
-[Preview Demo](https://youtu.be/_gOFQaEuYIA)
+[Preview](https://youtu.be/_gOFQaEuYIA)
 
