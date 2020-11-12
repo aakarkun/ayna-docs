@@ -1,8 +1,6 @@
 <!-- _navbar.md -->
 
-* :eyes: Getting started
+* :eyes:  Getting started
 
-  * [Quick start](#introduction)
-  * [Writing more pages](more-pages.md)
-  * [Custom navbar](custom-navbar.md)
-  * [Cover page](cover.md)
+  * [Quick start](#_1-introduction)
+  * [Demo](https://youtu.be/_gOFQaEuYIA)

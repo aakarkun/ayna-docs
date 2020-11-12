@@ -1,2 +1,2 @@
 * [:house_with_garden: Home](/)
-* [:books: Guide](guide.md "The greatest guide in the world")
+* [:eyes: VIEW DEMO](https://youtu.be/_gOFQaEuYIA "Ayna Preview")

@@ -14,5 +14,5 @@
 
 [GitHub](https://github.com/aakarkun/ayna/)
 [API](https://giuthub.com/meemimos/ayna-api)
-[Get Started](#introduction)
+[Get Started](#_1-introduction)
 
